@@ -5,7 +5,7 @@ body {
 .orange {
   color: coral;
 }
-section {
+.flexible-continer {
   display: flex;
   margin-bottom: 50px;
 }
@@ -33,3 +33,25 @@ section {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experianc-item {
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 3px;
+}
+#baby-expeirance{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+#fulstac-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
