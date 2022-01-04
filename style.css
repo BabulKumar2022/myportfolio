@@ -7,6 +7,7 @@ body {
 }
 section {
   display: flex;
+  margin-bottom: 50px;
 }
 .half-width {
   width: 50%;
@@ -26,4 +27,9 @@ section {
 .top-banar {
   background-image: url(images/4.jpg);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/4.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
